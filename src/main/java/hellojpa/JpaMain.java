@@ -13,30 +13,10 @@ public class JpaMain {
         tx.begin();
 
         try {
-            // insert
-//            Member member = new Member();
-//            member.setId(2L);
-//            member.setName("helloB");
-//            em.persist(member);
+            Member member1 = new Member(200L, "aaaa");
+            em.persist(member1);
 
-            // select
-//            Member findMember = em.find(Member.class, 1L);
-//            System.out.println("findMember id : " + findMember.getId());
-//            System.out.println("findMember name : " + findMember.getName());
-
-            // update
-//            Member findMember = em.find(Member.class, 1L);
-//            findMember.setName("helloJPA");
-
-            // condition select -> JPQL
-            List<Member> members = em.createQuery("select m from Member as m", Member.class)
-                    .setFirstResult(5)
-                    .setMaxResults(8)
-                    .getResultList();
-
-            for (Member member : members) {
-                System.out.println("member.name = " + member.getName());
-            }
+            em.flush();
 
             tx.commit();
         } catch (Exception e) {
