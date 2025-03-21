@@ -10,11 +10,11 @@
 - 페이징: MySQL은 LIMIT , Oracle은 ROWNUM
 - 방언: SQL 표준을 지키지 않는 특정 데이터베이스만의 고유한 기능
 
-![스크린샷 2025-03-19 오후 4.46.52.png](attachment:6c6d9502-7256-4745-b8bb-00791cb004f2:스크린샷_2025-03-19_오후_4.46.52.png)
+<img width="937" alt="스크린샷 2025-03-21 오후 1 01 06" src="https://github.com/user-attachments/assets/0e606599-3744-4f90-a56b-f85c3bcb5d49" />
 
 ### JPA 의 구동방식
 
-![스크린샷 2025-03-19 오후 4.48.14.png](attachment:ad8f539b-0a88-4610-9740-16756602de83:스크린샷_2025-03-19_오후_4.48.14.png)
+<img width="1046" alt="스크린샷 2025-03-21 오후 1 02 20" src="https://github.com/user-attachments/assets/b7baba81-e1ad-4f48-b484-31ae2962b766" />
 
 ### 실습 코드
 
