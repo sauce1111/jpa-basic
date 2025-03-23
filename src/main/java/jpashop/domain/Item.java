@@ -3,7 +3,6 @@ package jpashop.domain;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "ORDERS")
 public class Item {
 
     @Id
